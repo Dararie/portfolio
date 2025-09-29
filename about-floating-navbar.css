@@ -1,0 +1,59 @@
+/* about-floating-navbar.css: Drop of water (pill/blob) style floating navbar for about.html */
+
+.floating-section-navbar.drop-nav {
+    position: fixed;
+    top: 50%;
+    right: 32px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    z-index: 1050;
+    background: rgba(255,255,255,0.85);
+    border-radius: 2rem;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.12), 0 1.5px 4px rgba(0,0,0,0.08);
+    padding: 18px 12px;
+    transition: background 0.3s;
+    border: 1.5px solid #e3e6ee;
+}
+
+.floating-section-navbar.drop-nav .section-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #f5f7fa;
+    color: #2a3a4b;
+    font-size: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    margin: 0 auto;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    text-decoration: none;
+}
+
+.floating-section-navbar.drop-nav .section-link:hover,
+.floating-section-navbar.drop-nav .section-link:focus {
+    background: var(--primary-color, #6c63ff);
+    color: #fff;
+    box-shadow: 0 4px 16px rgba(108,99,255,0.15);
+}
+
+@media (max-width: 992px) {
+    .floating-section-navbar.drop-nav {
+        right: 10px;
+        padding: 10px 6px;
+    }
+    .floating-section-navbar.drop-nav .section-link {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .floating-section-navbar.drop-nav {
+        display: none;
+    }
+}
