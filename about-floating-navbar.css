@@ -4,6 +4,7 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Floating Section Navbar Styles */
 .floating-section-navbar.drop-nav {
     position: fixed;
     top: 50%;

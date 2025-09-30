@@ -4,7 +4,7 @@
     height: 120px;
     /* Reduced height */
     max-width: 60%;
-    /* Limit width for vertical images*/
+    /* Limit width for vertical images */
     object-fit: contain;
     background: #f8f9fa;
     border-radius: 0.5rem 0.5rem 0 0;
