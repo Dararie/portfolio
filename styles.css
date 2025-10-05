@@ -490,8 +490,7 @@ body {
     .tech-card {
         margin-bottom: 2rem;
     }
-
-    h1, h2, h3, h4, h5, h6 {
+  h1, h2, h3, h4, h5, h6 {
   padding: 1rem 0;
   }
 }
