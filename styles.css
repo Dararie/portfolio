@@ -337,16 +337,12 @@ body {
 
 /* Tech Stack Section */
 .tech-stack {
-    display: grid;
-    gap: 1.5rem;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 1rem;
+    background-color: white;
+    width: 100%;
+    overflow: visible;
+    padding: 80px 0;
 }
-@media (min-width: 768px) {
-    .tech-stack {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
+
 .tech-card {
     background: white;
     border-radius: 15px;
@@ -494,7 +490,8 @@ body {
     .tech-card {
         margin-bottom: 2rem;
     }
-  h1, h2, h3, h4, h5, h6 {
+
+    h1, h2, h3, h4, h5, h6 {
   padding: 1rem 0;
   }
 }
